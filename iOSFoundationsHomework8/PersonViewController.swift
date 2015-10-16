@@ -22,8 +22,7 @@ class PersonViewController: UIViewController, UITableViewDataSource {
        if let peopleFromArchive = self.loadFromArchive() {
            people = peopleFromArchive
         } else {
-            
-//           personTableView.dataSource = self
+        
             
             let fredImage = UIImage(named: "fred_flinstone")!
             let fred = Person(fName: "Fred", lName: "Flintstone", photo: fredImage)
